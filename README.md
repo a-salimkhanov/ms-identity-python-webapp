@@ -25,7 +25,8 @@ To get started with this sample, you have two options:
 
 This sample can also work as a B2C app. If you are using a B2C tenant,
 follow the step 1, 2 and 3 in
-[Configure authentication in a sample Python web app by using Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/configure-authentication-sample-python-web-app).
+[Configure authentication in a sample Python web app by using Azure AD B2C](https://learn.microsoft.com/azure/active-directory-b2c/configure-authentication-sample-python-web-app).
+
 In step 4, you no longer need to rename any files,
 you just need to put the values into `.env`.
 Note that the setting `TENANT_NAME` has been renamed to `B2C_TENANT_NAME`.
