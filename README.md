@@ -13,7 +13,7 @@ This is a Python web application that uses the Flask framework and the Microsoft
 
 # Configuration
 
-## If you are configuring your AAD app or CIAM app
+## If you are configuring your Microsoft Entra ID app or Microsoft Entra External ID app
 
 To get started with this sample, you have two options:
 
