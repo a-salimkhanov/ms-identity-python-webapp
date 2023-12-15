@@ -11,11 +11,25 @@ urlFragment: ms-identity-python-webapp
 
 This is a Python web application that uses the Flask framework and the Microsoft identity platform to sign in users and make authenticated calls to the Microsoft Graph API.
 
+# Configuration
+
+## If you are configuring your AAD app or CIAM app
+
 To get started with this sample, you have two options:
 
 * Use the Azure portal to create the Azure AD applications and related objects. Follow the steps in
   [Quickstart: Add sign-in with Microsoft to a Python web app](https://docs.microsoft.com/azure/active-directory/develop/web-app-quickstart?pivots=devlang-python).
 * Use PowerShell scripts that automatically create the Azure AD applications and related objects (passwords, permissions, dependencies) for you, and then modify the configuration files. Follow the steps in the [App Creation Scripts README](./AppCreationScripts/AppCreationScripts.md).
+
+## If you are configuring your B2C app
+
+This sample can also work as a B2C app. If you are using a B2C tenant,
+follow the step 1, 2 and 3 in
+[Configure authentication in a sample Python web app by using Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/configure-authentication-sample-python-web-app).
+In step 4, you no longer need to rename any files,
+you just need to put the values into `.env`.
+Note that the setting `TENANT_NAME` has been renamed to `B2C_TENANT_NAME`.
+
 
 # Deployment
 
